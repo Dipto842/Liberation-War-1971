@@ -8,7 +8,7 @@
 
 
 
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
     .width {
        
         position: fixed;
@@ -24,14 +24,14 @@
         }  
 }   
 
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
     .PCsize {
       width:637px;
         
          
     }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
     .flex {
         display: flex;
         justify-content: space-around;
@@ -42,14 +42,14 @@
     width: 100%  !important;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
     .margin {
         padding-left: 60px;
         
          
     }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
     .margin1 {
         padding-right: 60px;
         
@@ -88,7 +88,7 @@
 
 /* from */
 
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
     .from {
         width: auto  !important;
         
@@ -124,14 +124,14 @@
 
 /* Gallery */
 
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
     .displ {
         display:grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
     }
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
     .width2 {
  width:  22rem  !important;
 
@@ -155,7 +155,7 @@
   opacity: 0.9;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
     .hovarinput {
         width: 600px !important;
         
@@ -176,7 +176,7 @@
     color: white !important; 
     
 }
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
     .btnHovar {
         width: 600px  !important;
         
