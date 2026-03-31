@@ -30,6 +30,10 @@
         
          
     }
+
+    .Contact {
+        margin-bottom: 338px !important;
+    }
 }
 @media (min-width: 1025px) {
     .flex {
