@@ -167,3 +167,10 @@
     color: white !important; 
     
 }
+@media (min-width: 992px) {
+    .btnHovar {
+        width: 600px  !important;
+        
+         
+    }
+}
