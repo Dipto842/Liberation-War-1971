@@ -146,6 +146,13 @@
   opacity: 0.9;
 }
 
+@media (min-width: 992px) {
+    .hovarinput {
+        width: 600px !important;
+        
+         
+    }
+}
 .hovarinput:focus {
   outline: none;
   border: 3px solid red !important
