@@ -1,0 +1,162 @@
+
+
+.font {
+   font-family: "system-ui", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+@media (min-width: 992px) {
+    .width {
+       
+        position: fixed;
+        padding: 20px;
+        
+         
+    }
+
+    .gp {
+            gap: 20px;
+
+            
+        }  
+}   
+
+@media (min-width: 992px) {
+    .PCsize {
+      width:637px;
+        
+         
+    }
+}
+@media (min-width: 992px) {
+    .flex {
+        display: flex;
+        justify-content: space-around;
+        gap: 400px;
+    }
+}
+.width1{
+    width: 100%  !important;
+}
+
+@media (min-width: 992px) {
+    .margin {
+        padding-left: 60px;
+        
+         
+    }
+}
+@media (min-width: 992px) {
+    .margin1 {
+        padding-right: 60px;
+        
+         
+    }
+}
+
+.text{
+    font-size: 1.1rem;
+}
+.Hover{
+    color: white;
+     transition: color 0.3s ease;
+}
+.Hover:hover{
+    color: #f42a41;
+     
+}
+
+/*  Hero Section     */
+
+.img{
+    background-image: url('./Images/img.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    color: white;
+}
+
+.disply{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+   
+}
+
+
+
+/* History Section */
+.hovar {
+    transition:  0.3s ease-in-out;
+}
+
+.hovar :hover{
+    margin-right: 0px;
+     ;
+    
+}
+
+
+/* Heroes */
+
+.hovarCarid  {
+    transition: 0.3s ease-in-out;
+}
+
+.hovarCarid:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
+
+
+
+/* Gallery */
+
+@media (min-width: 992px) {
+    .displ {
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+}
+@media (min-width: 992px) {
+    .width2 {
+ width:  22rem  !important;
+
+    }
+}
+
+.hovarimg {
+    transition: 0.3s ease-in-out;
+}
+.hovarimg:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+/* Input Hover Effect */
+
+.hovarinput {
+    transition: 0.3s ease-in-out;
+}
+.hovarinput:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.hovarinput:focus {
+  outline: none;
+  border: 3px solid red !important
+}
+
+.btnHovar {
+    transition: 0.3s ease-in-out;
+}
+
+.btnHovar:hover {
+    background-color: red !important ; 
+    color: white !important; 
+    
+}
